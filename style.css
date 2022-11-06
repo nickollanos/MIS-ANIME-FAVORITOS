@@ -1,0 +1,69 @@
+/*/estilos del cuerpo de la primera pagina/**/
+body{
+    background-color: aquamarine;
+    background-image: url(https://static.wixstatic.com/media/ec07a3_7104a8d9ce884f75b4f8d454afc8d459~mv2.gif);
+    background-repeat: no-repeat;
+    background-size: 1320px;
+}
+
+/*/estilos del comentario o titulo de la pagina principal/**/
+.comentario-1{
+    background-position-x: 1000px;
+    color: rgb(199, 23, 10);
+    position: absolute;
+    right: 4%;
+}
+
+/*/estilos del boton de la pagina principal/**/
+.boton-1{
+    background-color: rgba(229, 255, 0, 0.863);
+    background-position-x:right;
+    position: fixed;
+    top: 560px;
+    border-radius: 20% ;
+    -webkit-border-radius: 20% ;
+    -moz-border-radius: 20% ;
+    -ms-border-radius: 20% ;
+    -o-border-radius: 20% ;
+    cursor:grab ;
+}
+
+/*/estilos del cuerpo de la segunda pagina/**/
+.body-2{
+    background-image: url(https://gifimage.net/wp-content/uploads/2018/04/paisajes-naturales-gif-con-movimiento-2.gif);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+}
+
+/*/estilos del cuerpo de la primera linea de la tabla generada en la pagina2/**/
+.renglon-1{
+    background-color: rgb(236, 245, 155);
+    
+}
+
+/*/estilos del cuerpo de la tabla generada en la pagina2/**/
+.tabla-1{
+    border-color: brown;
+    border-style: double;
+}
+
+/*/estilos de la letra y los detalles internos de la tabla generada en la pagina2/**/
+td{
+    color: rgb(234, 250, 15);
+    font-size: 20px;
+    font-style: italic;
+}
+
+/*/estillos del boton 2/**/
+.boton-2{
+    background-color: rgb(204, 127, 11);
+}
+
+/*/estilo del comentario de pie de pagina que ubica quien es el creador en la pagina1/**/
+ .pie{
+    color: rgb(0, 238, 255);
+    font-size: 20px;
+    font-style: italic;
+    position: fixed;
+    top: 600px;
+ }
